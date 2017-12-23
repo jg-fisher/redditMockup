@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src='./script.js'> </script>
+</head>
+<body>
+  <header class='grid-1'>
+    <ul>
+      <li class='my-subs'><strong>MY SUBREDDITS</strong></li>
+      <li>-</li>
+      <li id='red-hack'>HOME</li>
+      <li>-</li>
+      <li>POPULAR</li>
+      <li>-</li>
+      <li>ALL</li>
+      <li>-</li>
+      <li>RANDOM</li>
+      <li>-</li>
+      <li>USERS</li>
+      <li>|</li>
+      <li>ETHEREUM</li>
+      <li>-</li>
+      <li>WEBDEV</li>
+      <li>-</li>
+      <li>WEB_DESIGN</li>
+      <li>-</li>
+      <li>NODE</li>
+      <li>-</li>
+      <li>NEWTUBERS</li>
+      <li>-</li>
+      <li>ETHDEV</li>
+      <li>-</li>
+      <li>MACHINELEARNING</li>
+      <li>-</li>
+      <li>LEARNMACHINELEARNING</li>
+      <li>-</li>
+      <li><strong>EDIT</strong></li>
+    </ul>
+  </header>
+  <nav class='grid-3'>
+    <img src='./reddit.png' alt='REDDIT' class='reddit-pic'>
+    <div>
+      <ul>
+        <li id='hot-hack'>hot</li>
+        <li>new</li>
+        <li>rising</li>
+        <li>controversial</li>
+        <li>top</li>
+        <li>gilded</li>
+        <li>wiki</li>
+      </ul>
+    </div>
+    <div class='profile-ops'>
+      <div>
+        <ul>
+          <li>jfishersolutions</li>
+          <li>(9,000) |</li>
+          <li><strong>preferences |</strong></li>
+          <li>logout</li>
+        </ul>
+      </div>
+  </div>
+  </nav>
+  <div id="main" class='grid-20-10-1'>
+    <div>
+      <div class="post">
+        <div class='post-number'>1</div>
+        <div class='post-upvotes'>
+          <div class="arrow up" onclick='vote()' id='upvote'></div>
+          <div id='votes'>1459</div>
+          <div class="arrow down" onclick='votedown()' id='downvote'></div>
+        </div>
+        <div class='post-body'>
+          <a href='#' class='post-title'>Learn HTML/CSS And JavaScript By Creating Reddit</a>
+          <span class='post-location'>(self.WOOHOO)</span>
+          <p>submitted 10 hours ago* by <a class='submit-link' href='#'>jfishersolutions</a> to <a class='submit-link' href='#'>/r/yadayada</a></p>
+          <div class='post-options'>
+            <span>150 comments</span>
+            <span>share</span>
+            <span>save</span>
+            <span>hide</span>
+            <span>report</span>
+            <span>crosspost</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='search-container'>
+      <input placeholder='search' class='search-text-input'>
+      <button class='search-button'>
+        <a href='#'><img id='magnifier' src='./search.png'></a>
+      </button>
+      <button class='user-action-button'>Submit a new link</button>
+      <button class='user-action-button'>Submit a new text post</button>
+      <button class='user-action-button'>Create your own subreddit</button>
+      <div class="reddit-gold">
+        <div>daily reddit gold goal</div>
+        <div>
+          <div class='bar-container'>
+            <div class="bar"></div>
+          </div>
+          <span class='gold-percent'>100%</span>
+        </div>
+        <button class='reddit-gold-support'>help support reddit</button>
+      </div>
+    </div>
+    <div></div>
+  </div>
+</body>
+</html>
